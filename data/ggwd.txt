@@ -1,0 +1,11 @@
+t()
+{
+  hs("http://域名/api/gggl.php",gg)
+  ufnsui()
+  {
+    utw(null,"公告",gg,"知道了",true,v)
+    {
+      endutw()
+    }
+  }
+}

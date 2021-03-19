@@ -1,0 +1,21 @@
+//放入按钮点击事件
+ug(2,"text",zh)
+ug(3,"text",mm)
+ss("http://域名/api/dl.php?user="+zh+"&pass="+mm+"",b)
+t()
+{
+  hs(b,wz)
+  syso(wz)
+  ufnsui()
+  {
+    f(wz=="登录成功")
+    {
+      uigo("登录成功.iyu")
+      //登录成功跳转的页面
+    }
+    else
+    {
+      tw(wz)
+    }
+  }
+}

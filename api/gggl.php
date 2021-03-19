@@ -1,0 +1,1 @@
+<?php include_once('../admin/home/gggl1.php'); echo $arr[0]; ?>

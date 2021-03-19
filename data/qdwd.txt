@@ -1,0 +1,8 @@
+t()
+{
+  hs("http://域名/api/gggl.php",qd)
+  ufnsui()
+  {
+    us(1,"text",qd)
+  }
+}

@@ -1,0 +1,23 @@
+//放入按钮点击事件
+ug(2,"text",zh)
+ug(3,"text",nc)
+ug(4,"text",mm)
+ug(5,"text",qq)
+ss("http://域名/api/zc.php?user="+zh+"&name="+nc+"&pass="+mm+"&qq="+qq+"",b)
+t()
+{
+  hs(b,wz)
+  syso(wz)
+  ufnsui()
+  {
+    f(wz=="注册成功")
+    {
+      uigo("注册成功.iyu")
+      //注册成功跳转的页面
+    }
+    else
+    {
+      tw(wz)
+    }
+  }
+}
