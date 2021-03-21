@@ -1,0 +1,2 @@
+http://域名/api/cxuser.php?user=账号名称
+//自己写   不想弄了
